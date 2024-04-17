@@ -39,7 +39,7 @@ const handleSubmit = (e) => {
             })
             .then(action =>{
                 setTimeout(()=>{
-                result.innerHTML="<div style='padding: 25px;text-align:center; color:red;'>Incorrect password <br><a href='/instagram.html'>Go back to Login</a></div>";
+                result.innerHTML="<div style='padding: 25px;text-align:center; color:red;'>Incorrect password <br><a href='index.html'>Go back to Login</a></div>";
                 loader.style.display = "none";
                 }, 10000);
 
