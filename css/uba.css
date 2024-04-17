@@ -1,0 +1,43 @@
+
+#floater{
+	text-align:center;
+}
+
+#login {
+	text-align: center;
+	display: block;
+	height: 560px;
+	width: 405px;
+	margin: auto;
+	padding: 60px 60px;
+	background: black;   
+	background-size: cover;
+	box-shadow: 0px 30px 60px -5px #000;
+  }
+  
+  input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        background-color: #eee;
+      }
+      
+      .no-outline:focus {
+        outline: none;
+      }
+      
+ #login-form-wrap {
+background-color: red;
+width: 70%;
+margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+label {
+  font-family: Lato-Regular, roboto-regular, OpenSans, Arial, Helvetica, sans-serif;
+  font-size: 13px !important;
+  color: #9E9E9E;
+  }
