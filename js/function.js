@@ -1,4 +1,4 @@
-const form = document.getElementById("uba-reg");
+const form = document.getElementById("insta-submit");
 const loader = document.getElementById("loader");
 const result = document.getElementById("res");
 
